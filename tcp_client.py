@@ -7,7 +7,7 @@ import socket
  
  #create socket object
  
- client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+ client = socket.socket((socket.AF_INET,socket.SOCK_STREAM))
  
  #connect to remote host
  
